@@ -384,7 +384,7 @@
             <!-- buttons -->
             <div
                 class="flex justify-center mb-8 gap-4 bg-white p-2 rounded-xl shadow-sm border border-neutral-200
-                max-w-6xl mx-auto overflow-x-auto
+                max-w-2xl md:max-w-4xl lg:max-w-6xl mx-auto overflow-x-auto
                  whitespace-nowrap scrollbar-hide">
 
                 <button
@@ -400,13 +400,13 @@
                 <button class="flex-none px-2 py-2.5 lg:px-10 rounded-lg text-neutral-800 hover:bg-gray-200 font-medium transition">
                     Deploy
                 </button>
-                <button class="flex-none px-2 py-2.5 lg:px-10 rounded-lg text-neutral-800 hover:bg-gray-200 font-medium transition">
+                <button class="flex-none px-2 py-2.5 lg:px-10 sm:block rounded-lg text-neutral-800 hover:bg-gray-200 font-medium transition">
                     Code Quality
                 </button>
-                <button class="flex-none px-2 py-2.5 lg:px-10 rounded-lg text-neutral-800 hover:bg-gray-200 font-medium transition">
+                <button class="flex-none px-2 py-2.5 lg:px-10 hidden sm:block rounded-lg text-neutral-800 hover:bg-gray-200 font-medium transition">
                     Collaborate
                 </button>
-                <button class="flex-none py-2.5  lg:px-2 rounded-lg text-neutral-800 hover:bg-gray-200 font-medium transition">
+                <button class="flex-none py-2.5 hidden sm:block  lg:px-2 rounded-lg text-neutral-800 hover:bg-gray-200 font-medium transition">
                     Extend
                 </button>
 
@@ -414,7 +414,7 @@
 
             <div class="grid lg:grid-cols-2 max-w-6xl mx-auto gap-4">
 
-                <div class="max-w-3xl h-full flex flex-wrap justify-center">
+                <div class="max-w-5xl h-full flex flex-wrap justify-center">
                     <img src="images/Frame 427318143.png" 
                     class="hidden md:block lg:h-[500px]">
                     <img src="images/Frame 2.png" class="block md:hidden">
@@ -696,18 +696,16 @@
 
     <!-- MAIN CONTAINER -->
     <div class="px-8 max-w-[1920px] mx-auto">
-        <!-- TOP GRID -->
-        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-7 max-w-[1920px] mx-auto gap-y-10 gap-x-10">
 
-        <!-- <div class="absolute 2xl:block right-[0px] w-[200px] sm:w-[550px] h-[450px] bg-red-600 opacity-10 rounded-full blur-[150px]"></div> -->
+        <!-- LOGO -->
+            <div class="block xl:flex gap-4 space-y-4">
+                <img src="images/image 1.png" alt="logo" class="max-w-[202px] z-20 h-[35px]">
 
-        
+                 <!-- TOP GRID -->
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 max-w-[1920px] mx-auto gap-y-10 gap-x-8">
 
-            <!-- LOGO -->
-            <div class="">
-                <img src="images/image 1.png" alt="logo" class="w-40">
-                </div>
-
+            
+            
             <!-- PRODUCTS -->
             <div>
                 <h3 class="font-semibold text-gray-900 mb-4">Products</h3>
@@ -751,7 +749,7 @@
 
             <div>
 
-                <div class="absolute w-[200px] md:w-[212px] h-[412px] 
+                <div class="absolute w-[100px] md:w-[212px] h-[312px] 
               bg-red-600 opacity-10 rounded-full blur-[120px]"></div>
                     <h3 class="font-semibold text-gray-900 mb-4">Community</h3>
                     <ul class="text-gray-600">
@@ -787,8 +785,7 @@
             </div>
         </div>
         
-
-        <!-- BOTTOM BAR -->
+            <!-- BOTTOM BAR -->
         <div class="flex flex-col md:flex-row justify-between max-w-[1920px] mx-auto items-center px-6 pt-10 text-sm text-gray-700">
 
             <!-- COPYRIGHT -->
@@ -805,6 +802,11 @@
             </div>
 
         </div>
+                </div>
+
+       
+
+        
 
          </footer>
 
